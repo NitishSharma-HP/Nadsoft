@@ -8,6 +8,7 @@ create database in PostgreSql
 then run the database schema script.
 
 For Backend:- 
-run command:- npm install
+run command:- npm install.
+then
 in .env file place the database connection URL
 
