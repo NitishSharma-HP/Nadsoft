@@ -1,0 +1,29 @@
+# Node.js-related ignore rules
+node_modules/
+
+# Ignore environment files (for both frontend and backend)
+frontend/.env
+backend/.env
+
+# Build output directories
+frontend/build/
+frontend/dist/
+backend/build/
+backend/dist/
+
+# Logs
+*.log
+frontend/*.log
+backend/*.log
+
+# OS-specific files (macOS and Windows)
+.DS_Store
+Thumbs.db
+
+# IDE and editor folders (VSCode, JetBrains, etc.)
+.vscode/
+.idea/
+
+# Optional: Ignore SQLite or temporary DBs
+*.sqlite
+*.db
